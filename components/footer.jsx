@@ -1,5 +1,5 @@
 import Link from "next/link";
-export default function Footer(props) {
+export default function Footer() {
   return (
     <div className="btm-nav -pt-8">
       <div className="flex flex-wrap items-center md:justify-between justify-center">
@@ -12,6 +12,18 @@ export default function Footer(props) {
               className="font-bold text-primary uppercase px-1"
             >
               0x<span className="text-white">dweb</span>
+            </Link>
+            <Link
+              href="/terms"
+              className="font-bold text-primary uppercase px-2"
+            >
+              Terms
+            </Link>
+            <Link
+              href="/privacy"
+              className="font-bold text-primary uppercase px-2"
+            >
+              Privacy
             </Link>
           </div>
         </div>

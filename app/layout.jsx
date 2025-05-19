@@ -1,24 +1,24 @@
 import { GeistMono } from 'geist/font/mono'
 import "./globals.css";
-import { Providers } from "./providers";
+//import { Providers } from "./providers";
 import { Analytics } from '@vercel/analytics/next';
 import Header from "components/header";
 import Footer from "components/footer";
 
 export const metadata = {
   title: "0XDWEB",
-  description: "Decentralized Web & Apps",
+  description: "Decentralized Communities",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={GeistMono.className}>
       <body>
-        <Providers>
+        {/*<Providers>*/}
           <Header />
           <main>{children}</main>
           <Footer />
-        </Providers>
+        {/*</Providers>*/}
         <Analytics />
       </body>
     </html>

@@ -7,16 +7,14 @@ export default function Home() {
       className="hero min-h-screen"
       style={{
         backgroundImage:
-          "url(https://doodleipsum.com/700/outline?i=f04b406cfb99d08a441a1fbb4257cde2)",
+          "url(/0xdwebbackground.png)",
       }}
     >
       <div className="hero-content text-right align-right">
-        <div className="max-w-md">
-          <h1 className="text-6xl">0x dweb</h1>
+        <div className="max-w-lg">
+          <h1 className="text-6xl">0x DWEB</h1>
           <h2 className="py-4 text-4xl text-secondary">decentralized dapps</h2>
-          <p className="py-4 text-sm text-info">
-            Building WEB3 eCommerce Marketplace With 0x Communities.
-          </p>
+          <p className="py-4 text-sm text-info">Building WEB3 Communities.</p>
         </div>
       </div>
     </div>
